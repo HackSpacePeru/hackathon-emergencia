@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import G  oogle Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/helpers.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <nav class="grey lighten-5">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo right black-text">#Unasolafuerza #huaycoperu</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down black-text">
+          <li><a href="#" class="black-text titulo1">Emergencias <b>Perú</b></a></li>
+          <li><a href="index.html" class="black-text">ALERTAS DE HUAYCO</a></li>
+          <li><a href="voluntarios.html" class="black-text">VOLUNTARIOS</a></li>
+          <li><a href="#" class="black-text">CONTACTO</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row red darken-4 vh">
+      <div class="container">
+        <br>
+        <div class="row col s12 center titulo2 white-text">
+          Unidos somos <b>#unasolafuerza</b>
+        </div>
+        <div class="container">
+          <div class="col s12">
+            <div class="col s6">
+              <div class="card-panel yellow darken-2 center">
+                <span class="black-text titulo3">ALERTA DE HUAYCOS
+                </span>
+              </div>
+            </div>
+            <div class="col s6">
+              <div class="card-panel yellow darken-2 center">
+                <span class="black-text titulo3">VOLUNTARIADO
+                </span>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row btt">
+      <div class="container">
+        <div class="row col s12">
+          <div class="card grey lighten-2">
+            <div class="card-content">
+              <p class="center"><b>ALERTAS DE HUAYCO A NIVEL NACIONAL</b></p>
+            </div>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a class="active" href="#test5">ZONA DE EMERGENCIA</a></li>
+              </ul>
+            </div>
+            <div class="card-content grey lighten-4">
+              <div id="test5"><div id="googleMap" style="width:100%;height:400px;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="row col s12">
+          <div class="card grey lighten-2">
+            <div class="card-content">
+              <p class="center"><b>VOLUNTARIOS Y REFUGIOS A NIVEL NACIONAL</b></p>
+            </div>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a class="active" href="#test5">ZONAS DE VOLUNTARIADO Y REFUGIADOS</a></li>
+              </ul>
+            </div>
+            <div class="card-content grey lighten-4">
+              <div id="test5"><div id="googleMap2" style="width:100%;height:400px;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/js/helpers.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvZtQOIf5GmXC4r_DymvtBuYIGdnENXb4&callback=myMap"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  </body>
+</html>
